@@ -54,7 +54,7 @@ fi
 # === 2. Desplegar APIs
 ~/scripts-deploy-cloud/deploy-usuarios.sh -s "$STAGE"
 ~/scripts-deploy-cloud/deploy-productos.sh -s "$STAGE"
-~/scripts-deploy-cloud /deploy-compras.sh -s "$STAGE"
+~/scripts-deploy-cloud/deploy-compras.sh -s "$STAGE"
 
 # === 3. Mostrar endpoints
 echo -e "\n🌐 Endpoints desplegados en $STAGE:" | tee -a "$MASTER_LOG"
